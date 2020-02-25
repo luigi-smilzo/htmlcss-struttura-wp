@@ -190,7 +190,46 @@ body {
 
 /* Footer */
 footer {
-  height: 50px;
   width: 100%;
-  background: mediumseagreen;
+  background: white;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0 5px;
+}
+
+span.powered {
+  font-family: 'roboto';
+  font-size: .8em;
+  font-style: italic;
+  color: #ccc;
+  display: block;
+  text-align: center;
+  margin: 2px 0;
+}
+
+footer hr {
+  border: 1px solid #ccc;
+}
+
+.social-list {
+  padding: 0;
+}
+
+.social-icons ul li {
+  list-style: none;
+  padding: 0;
+  float:left;
+  width: calc(100% / 3);
+  text-align: center;
+  font-size: 60px;
+  color: #ccc;
+}
+
+.social-icons ul li a:link {
+  color: #ccc;
+}
+
+.social-icons ul li a:visited {
+  color: #ccc;
 }
