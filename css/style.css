@@ -26,17 +26,19 @@ body {
   background-image: url(../img/background-banner.jpeg);
   background-size: cover;
   margin-top: 25px;
+  padding-top: 5%;
   border: 12px solid white;
-  text-align: center;
-  padding-top: 90px;
 }
 
 .box-header img {
-  width: 50%;
+  width: 55%;
+  display: block;
+  margin: auto;
 }
 
 .box-header h1 {
-  font-family: montserrat;
+  text-align: center;
+  font-family: 'montserrat';
   text-transform: uppercase;
   color: white;
 }
