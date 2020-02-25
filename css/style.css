@@ -104,26 +104,68 @@ body {
 }
 
 .aside {
-  background: salmon;
-  height: 400px;
+  background: white;
   width: 100%;
   border-radius: 10px;
   margin-right: 15px;
+  border: 1px solid black;
 }
 
 .articolo {
-  background: gold;
-  height: 200px;
+  background: white;
   width: 100%;
+  border: 1px solid black;
   border-radius: 10px;
 }
 
 .box-right {
-  background: dodgerblue;
-  height: 250px;
+  background: white;
   width: 100%;
+  border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 15px;
+}
+
+.colonna .articolo,
+.colonna .box-right,
+.colonna .aside {
+  padding: 15px;
+}
+
+/* Formattazione testi main */
+.colonna .articolo h2 {
+  font-family: 'roboto';
+  color: #555;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 2px #ccc;
+}
+
+.colonna .box-right h2 {
+  font-family: 'roboto';
+  color: #555;
+  text-transform: capitalize;
+  text-shadow: 4px 4px 2px #ccc;
+}
+
+.colonna p {
+  font-family: 'roboto';
+  color: #black;
+  margin-top: 15px;
+}
+
+.colonna .aside h2 {
+  font-family: 'roboto';
+  color: #555;
+  text-shadow: 4px 4px 2px #ccc;
+}
+
+.colonna .aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.colonna .aside ul li {
+  margin-top: 15px;
 }
 
 /* Footer */
