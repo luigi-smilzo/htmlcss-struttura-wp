@@ -86,7 +86,7 @@ body {
   border-color: white;
 }
 
-#main-wrap::after {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -156,6 +156,7 @@ body {
 .colonna .aside h2 {
   font-family: 'roboto';
   color: #555;
+  text-transform: capitalize;
   text-shadow: 4px 4px 2px #ccc;
 }
 
@@ -165,7 +166,26 @@ body {
 }
 
 .colonna .aside ul li {
+  font-family: 'roboto';
+  color: mediumseagreen;
   margin-top: 15px;
+}
+
+.colonna .aside ul li a:link {
+  text-decoration: none;
+  color: mediumseagreen;
+}
+
+.colonna .aside ul li a:visited {
+  text-decoration: none;
+  color: mediumseagreen;
+}
+
+.colonna .aside i {
+  font-size: 30px;
+  color: orange;
+  float: left;
+  padding-right: 5px;
 }
 
 /* Footer */
